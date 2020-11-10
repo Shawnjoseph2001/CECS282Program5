@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/BigInt.h
+iostream
+-
+vector
+-
+
+/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp
+iostream
+-
+BigInt.h
+/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/BigInt.h
+bits/stdc++.h
+-
+map
+-
+
