@@ -3,4 +3,4 @@ project(CECS282Program5)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CECS282Program5 main.cpp BigInt.cpp BigInt.h)
+add_executable(CECS282Program5 main.cpp)

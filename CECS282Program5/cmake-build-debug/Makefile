@@ -142,33 +142,6 @@ CECS282Program5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CECS282Program5.dir/build.make CMakeFiles/CECS282Program5.dir/build
 .PHONY : CECS282Program5/fast
 
-BigInt.o: BigInt.cpp.o
-
-.PHONY : BigInt.o
-
-# target to build an object file
-BigInt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CECS282Program5.dir/build.make CMakeFiles/CECS282Program5.dir/BigInt.cpp.o
-.PHONY : BigInt.cpp.o
-
-BigInt.i: BigInt.cpp.i
-
-.PHONY : BigInt.i
-
-# target to preprocess a source file
-BigInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CECS282Program5.dir/build.make CMakeFiles/CECS282Program5.dir/BigInt.cpp.i
-.PHONY : BigInt.cpp.i
-
-BigInt.s: BigInt.cpp.s
-
-.PHONY : BigInt.s
-
-# target to generate assembly for a file
-BigInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CECS282Program5.dir/build.make CMakeFiles/CECS282Program5.dir/BigInt.cpp.s
-.PHONY : BigInt.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -205,9 +178,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CECS282Program5"
-	@echo "... BigInt.o"
-	@echo "... BigInt.i"
-	@echo "... BigInt.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
