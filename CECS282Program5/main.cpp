@@ -32,7 +32,6 @@ public:
 private:
     friend bool operator<(const BigInt a, const BigInt b);
     void fixData();
-protected:
     vector<char> data;
 };
 
