@@ -1,1 +1,4 @@
-CMake executable not found: /usr/local/Cellar/cmake/3.18.4/bin/cmake Configure
+/usr/local/Cellar/cmake/3.19.0_1/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.3/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/g++-10 -G "CodeBlocks - Unix Makefiles" /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/cmake-build-debug
