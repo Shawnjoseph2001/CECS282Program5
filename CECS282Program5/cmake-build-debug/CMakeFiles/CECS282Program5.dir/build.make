@@ -53,10 +53,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake -E rm -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,15 +79,15 @@ include CMakeFiles/CECS282Program5.dir/flags.make
 CMakeFiles/CECS282Program5.dir/main.cpp.o: CMakeFiles/CECS282Program5.dir/flags.make
 CMakeFiles/CECS282Program5.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CECS282Program5.dir/main.cpp.o"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CECS282Program5.dir/main.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CECS282Program5.dir/main.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp
 
 CMakeFiles/CECS282Program5.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS282Program5.dir/main.cpp.i"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp > CMakeFiles/CECS282Program5.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp > CMakeFiles/CECS282Program5.dir/main.cpp.i
 
 CMakeFiles/CECS282Program5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS282Program5.dir/main.cpp.s"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp -o CMakeFiles/CECS282Program5.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp -o CMakeFiles/CECS282Program5.dir/main.cpp.s
 
 # Object files for target CECS282Program5
 CECS282Program5_OBJECTS = \

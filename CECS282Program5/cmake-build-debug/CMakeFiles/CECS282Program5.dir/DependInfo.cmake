@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/main.cpp" "/Users/shawn/Documents/GitHub/CECS282Program5/CECS282Program5/cmake-build-debug/CMakeFiles/CECS282Program5.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

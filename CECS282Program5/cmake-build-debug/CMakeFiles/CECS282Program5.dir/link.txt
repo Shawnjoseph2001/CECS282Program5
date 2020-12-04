@@ -1,1 +1,1 @@
-/usr/local/Cellar/gcc/10.2.0/bin/g++-10 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CECS282Program5.dir/main.cpp.o -o CECS282Program5 
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CECS282Program5.dir/main.cpp.o -o CECS282Program5 
